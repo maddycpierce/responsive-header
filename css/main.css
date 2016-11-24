@@ -23,35 +23,57 @@ body {
 
 header {
   background-color: #18294f;
+  color: #fff;
 }
 
-h1 {
+header h1 {
   text-align: center;
   color: #fff;
   font-size: 2rem;
   margin: 0;
   padding-bottom: .1em;
+  padding-top: .45em;
 }
 
-ul {
+nav ul {
   list-style: none;
   font-size: 1.125rem;
   padding: .75rem;
-  padding-left:
   margin: 0;
 }
 
 li {
   padding: .6em .2em;
   padding-left: 0;
+  background-color: #18294f;
 }
 
-a {
+nav a {
   text-decoration: none;
   color: #6c8fe0;
+  white-space: nowrap;
 }
 
-a:hover {
+nav a:hover {
   background-color: #6c8fe0;
   color: #fff;
+}
+
+@media only screen and (min-width: 25em) {
+
+  nav li {
+    float: left;
+    width: 50%;
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  nav li {
+    float: left;
+    width: 25%;
+  }
+
 }
