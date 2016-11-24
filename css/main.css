@@ -19,11 +19,10 @@ html {
 
 body {
   margin: 0;
-  background-color: #18294f;
 }
 
 header {
-  margin: .9rem;
+  background-color: #18294f;
 }
 
 h1 {
@@ -38,11 +37,13 @@ ul {
   list-style: none;
   font-size: 1.125rem;
   padding: .75rem;
+  padding-left:
   margin: 0;
 }
 
 li {
   padding: .6em .2em;
+  padding-left: 0;
 }
 
 a {
